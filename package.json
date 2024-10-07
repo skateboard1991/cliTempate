@@ -1,0 +1,26 @@
+{
+  "name": "cliTemplate",
+  "version": "1.0.0",
+  "description": "CLI模板工程",
+  "main": "index.ts",
+  "repository": "www.baidu.com",
+  "author": "wujiaxin",
+  "license": "MIT",
+  "bin": {
+    "cliTemplate":"./bin/index.js"
+  },
+  "scripts": {
+    "build":"yarn tsc & chmod u+x ./bin/index.js & yarn link",
+    "tsc":"tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "typescript": "^5.6.2",
+    "typescritp": "^1.0.0"
+  },
+  "dependencies": {
+    "chalk": "4.1.2",
+    "commander": "^12.1.0",
+    "inquirer": "^11.0.2"
+  }
+}
